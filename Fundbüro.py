@@ -7,7 +7,6 @@ import sqlite3
 import os
 from datetime import datetime, timedelta
 import uuid
-import cv2
 
 # --- Pfade ---
 MODEL_PATH = "model/model.h5"
