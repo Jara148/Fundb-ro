@@ -1,3 +1,7 @@
+0 Trinkflasche
+1 Federtasche
+2 Schere
+
 from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
@@ -41,3 +45,4 @@ confidence_score = prediction[0][index]
 # Print prediction and confidence score
 print("Class:", class_name[2:], end="")
 print("Confidence Score:", confidence_score)
+
